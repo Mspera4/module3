@@ -5,49 +5,27 @@ body {
 /*Header*/
 #header-nav {
 	background-color: #6b6767;
-	padding-top: 35px ;
 	border: 0;
 	border-radius: 0;	
 }
 .navbar-header {
 	margin-bottom: 35px;
 }
-.navbar-brand {
-	font-size: 1.6em;
+.navbar-brand h1 {
+	font-size: 2em;
 	text-decoration: none;
 	text-transform: uppercase;
-	line-height: .1;
+	line-height: .7;
 	color: #000;
 	text-align: left;
+	margin-top: 10px;
 } 
-#collapsable-nav {
-	background-color: #fff;
-}
-#nav-list {
-	border: 1px solid #000;
-}
-.navbar-toggle {
-	background-color: #fff;
-	margin-right: 35px;
-}
-
-#nav-list > li > a {
-	text-align: center;
-	color: #000;
-	font-size: 1.2em;
-	border: 1px solid #000;
-}
-#nav-list a:hover {
-	background-color: #6b6767;
-}
-
-
 
 /*End Header*/
 
 /*Home Page*/
 h2 {
-	font-size: 1.6em;
+	font-size: 1.8em;
 	text-shadow: 1px 1px 1px #6b6767;
 	text-align: center;
 	padding-bottom: 30px;
@@ -58,7 +36,7 @@ h2 {
 	margin-bottom: 15px;
 }
 h3 {
-	font-size: 1.6em;
+	font-size: 1.4em;
 	text-align: center;
 	margin-bottom: 35px;
 	margin-top: 5px; 
