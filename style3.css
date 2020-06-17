@@ -12,13 +12,33 @@ body {
 .navbar-header {
 	margin-bottom: 35px;
 }
-.navbar-brand h1{
-	font-size: 2em;
+.navbar-brand {
+	font-size: 1.6em;
 	text-decoration: none;
 	text-transform: uppercase;
 	line-height: .1;
 	color: #000;
-	padding-left: 35px;
+	text-align: left;
+} 
+#collapsable-nav {
+	background-color: #fff;
+}
+#nav-list {
+	border: 1px solid #000;
+}
+.navbar-toggle {
+	background-color: #fff;
+	margin-right: 35px;
+}
+
+#nav-list > li > a {
+	text-align: center;
+	color: #000;
+	font-size: 1.2em;
+	border: 1px solid #000;
+}
+#nav-list a:hover {
+	background-color: #6b6767;
 }
 
 
@@ -27,7 +47,7 @@ body {
 
 /*Home Page*/
 h2 {
-	font-size: 2em;
+	font-size: 1.6em;
 	text-shadow: 1px 1px 1px #6b6767;
 	text-align: center;
 	padding-bottom: 30px;
