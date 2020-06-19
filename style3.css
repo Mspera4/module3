@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-size: 1.6em;
 	color: #000;
@@ -21,6 +25,8 @@ body {
 	margin-top: 10px;
 } 
 
+
+
 /*End Header*/
 
 /*Home Page*/
@@ -30,23 +36,34 @@ h2 {
 	text-align: center;
 	padding-bottom: 30px;
 }
-.container-fluid {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-bottom: 15px;
-}
-h3 {
+
+.box {
+	background-color: #6b6767;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 5px;
+	position: relative;}
+
+.title {
+	background-color: #fff;
+	width: 33%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-left:1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 5px;
 	font-size: 1.4em;
 	text-align: center;
-	margin-bottom: 35px;
-	margin-top: 5px; 
+	margin-top: 0px; 
 }
+
+
 p {
+	margin-top: 40px;
 	text-align: justify;
+
 }
-.col-md-12 {
-	background-color: #6b6767;
-	}
 
 /*End Home Page*/
 
@@ -74,12 +91,37 @@ p {
 	background-color: #6b6767;
 }
 /*End header*/
+
+/*Home Page*/
+.box{
+	margin-right: 55px;
+	margin-left: 55px;
+
+}
+
 .col-xs-12 {
-background-color: #6b6767;
 margin-bottom: 15px;
 }
-.container-fluid {
-	margin-left: 55px;
-	margin-right: 55px;
+p {
+	margin-bottom: 40px;
 }
+.link {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 33%;
+	color: #000;
+	padding: 5px;
+	background-color: #fff;
+	text-align: center;
+}
+.link:hover {
+	background-color: #0000ff;
+	text-decoration: none;
+	color: #000;
+	border: 2px solid #000;
+}
+
+/*End Home Page*/
+
 }
